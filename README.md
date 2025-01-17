@@ -1,56 +1,78 @@
-# 🐍 Snake Game in Python with Pygame 🎮
+# 🐍 Pinky Georgian Snake Eating Khinkali 
 
-A classic Snake game implemented using the Pygame library in Python. The game features a fun pink-themed interface with customizable elements such as the snake, cherries, and background music. 🌸
+### (based on ,,კაცი შედის სახინკლეში...)
+
+A classic Snake game with a Georgian twist! This fun and colorful game is implemented using the Pygame library in Python. The game features a delightful pink theme, complete with khinkali (Georgian dumplings) as the food item for your snake to eat. 🍔✨
 
 ## Features ✨
-- **Snake movement**: The player controls the snake using the arrow keys. ⬆️⬇️⬅️➡️
-- **Cherry spawning**: Randomly generates cherries 🍒 that the snake eats to grow.
-- **Game Over screen**: Displays the score at the end of the game. 📊
-- **Menu**: Includes a start menu with options to start or quit the game. 🎮
-- **Pink theme**: A custom pink-themed interface designed using Pygame and `pygame_menu`. 💖
+
+- **Snake movement**: Use the arrow keys to control the snake's direction. ⬆️⬇️⬅️➡️
+
+- **Khinkali spawning**: Randomly spawns khinkali dumplings 🍔 for the snake to consume and grow.
+
+- **Game Over screen**: Displays your score and a custom message when the game ends. 🔯
+
+- **Interactive menu**: Includes a start menu with options to begin or exit the game. 🎮
+
+- **Pink theme**: A custom pink-themed interface designed for a cheerful gaming experience. 💗
 
 ## Requirements 🛠️
+
 - Python 3.x 🐍
+
 - Pygame library 🎮
+
 - pygame_menu library 📝
 
 ## Installation 🔧
 
-1. Clone this repository:
-  ``` bash
-  git clone https://github.com/badonix/pinky_snake_game
-  ```
-2. Install the required libraries:
-  ``` bash
-  pip install pygame pygame_menu
-  ```
-
-## How to Run 🚀
-To play the game, simply run the Python script:
-
+- Clone this repository:
 ```bash
-python main.py
+git clone https://github.com/badonix/georgian_pinky_snake_game
 ```
-Controls 🎮:
+
+- Install the required libraries:
+```bash
+pip install pygame pygame_menu
+```
+
+## How to Play 🚀
+
+To start the game, run the Python script:
+```bash
+main.py
+```
+
+## Controls 🎮:
+
 - Use the arrow keys (Up, Down, Left, Right) to control the snake. 🐍
-- The snake grows each time it eats a cherry 🍒.
+
+- Your snake grows longer each time it eats a khinkali. 🍔
 
 ## Game Over 💥:
-- When the snake collides with itself or the wall, the game ends, and the score is displayed. 💀
-- The player can restart the game by selecting the "Play" button from the main menu after a game over.
 
-## File Structure 🗂️:
-- `snake_game.py` : The main Python script containing the game's logic. 💻
-- `cherry.png` : The image file for the cherry 🍒 (make sure to place this in the same directory as the script).
+- The game ends when the snake collides with itself or the wall. 
+
+- After the game ends, you can restart by selecting "Play" from the main menu.
+
+## File Structure 🗁:
+
+- `main.py`: The main Python script containing the game's logic. 💻
+
+- `khinkali.webp`: The image file used for the khinkali food item 🍔 (place this file in the same directory as the script).
 
 ## Customization 🎨
-- The game features a custom pink-themed menu and UI, which you can change by modifying the `custom_pink_theme` in the script. 💖
-- You can replace the cherry image by placing a new image named `cherry.png` in the same directory as the script. 🌸
 
-## Enjoy the Game! 🎮💖
+The game features a pink-themed interface, which can be adjusted by modifying the `custom_pink_theme` in the script. 💗
 
-We hope you have a blast playing this colorful and fun Snake game! 🐍✨
+Replace the khinkali image with your own by saving a new file named `khinkali.webp` in the same directory. 🍔
 
-Have fun, and happy gaming! 🎉🎮💖
+## Enjoy the Game! 🎮💗
+
+We hope you enjoy playing the Georgian Pinky Snake Game Eating Khinkali! Have fun controlling your snake, eating khinkali, and challenging yourself for the highest score. 🎉
+
+Happy gaming! 🎮😄
+
+
 
 
