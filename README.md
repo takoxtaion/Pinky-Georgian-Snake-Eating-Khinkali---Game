@@ -53,8 +53,6 @@ main.py
 
 - The game ends when the snake collides with itself or the wall. 
 
-- After the game ends, you can restart by selecting "Play" from the main menu.
-
 ## File Structure 🗁:
 
 - `main.py`: The main Python script containing the game's logic. 💻
