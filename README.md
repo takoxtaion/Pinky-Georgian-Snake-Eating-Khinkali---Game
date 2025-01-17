@@ -28,7 +28,7 @@ A classic Snake game with a Georgian twist! This fun and colorful game is implem
 
 - Clone this repository:
 ```bash
-git clone https://github.com/badonix/georgian_pinky_snake_game
+git clone https://github.com/takoxtaion/Pinky-Georgian-Snake-Eating-Khinkali---Game.git
 ```
 
 - Install the required libraries:
